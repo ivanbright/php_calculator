@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=
+, initial-scale=1.0">
+<title>calc</title>
+<link rel ="stylesheet" href="calc.css">
+</head>
+<body>
+<div id="container">
+<input type="text" readonly id="input"placeholder="0"><br>
+
+<div id="button-container">
+
+<button id="button7" onclick="calculattion('7')">7</button>
+<button id="button8" onclick="calculattion('8')">8</button>
+<button id="button9" onclick="calculattion('9')">9</button>
+<button id="button/" class="operators" onclick="calculattion('/')">/</button>
+<button id="button4" onclick="calculattion('4')">4</button>
+<button id="button5"  onclick="calculattion('5')">5</button>
+<button id="button6" onclick="calculattion('6')">6</button>
+<button id="button*" class="operators" onclick="calculattion('*')">*</button>
+<button id="button1" onclick="calculattion('1')">1</button>
+<button id="button2" onclick="calculattion('2')">2</button>
+<button id="button3" onclick="calculattion('3')">3</button>
+<button id="button-" class="operators" onclick="calculattion('-')">-</button>
+<button id="button0" onclick="calculattion('0')">0</button>
+<button id="button+/-" onclick="plusOrMinus()">+/-</button>
+<button id="button."onclick="calculattion('.')">.</button>
+<button id="button+" class="operators" onclick="calculattion('+')">+</button>
+<button id="button=" class="operators" onclick="evaluatiion()">=</button>
+<button id="buttonC" onclick="cleaner()">C</button>
+
+
+</div>
+</div>
+<script src ='calc.js'></script> 
+</body>
+</html>

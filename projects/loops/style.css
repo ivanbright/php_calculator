@@ -1,0 +1,19 @@
+form{
+    border: solid rgb(3, 112, 208);
+    width: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+button{
+    background-color: red;
+    color:white;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: brown;
+}

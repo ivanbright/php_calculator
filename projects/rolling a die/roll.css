@@ -1,0 +1,29 @@
+#rollContainer{
+    font-family: Helvetica;
+    text-align: center;
+  
+}
+.roll{
+    font-size: 6em; 
+    border-radius: 5px;
+    background-color: aqua;
+
+}
+.rollBtn{
+    background-color: blue;
+    font-size: 6em; 
+    border-radius: 5px;
+}
+.rollBtn:hover{
+    background-color: rgb(89, 89, 208);
+}
+#winners{
+    background-color: gold;
+    font-family: Helvetica;
+    border-width: 20px;
+    font-size: 4em;
+}
+#reset{
+    font-size: 4em;
+    background-color: red;
+}
